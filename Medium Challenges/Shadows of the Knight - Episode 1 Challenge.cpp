@@ -25,7 +25,7 @@ int main() {
     cin >> x >> y; cin.ignore();
     
     //vector storing on value per bit for h and w
-    vector<vector<bool> > table(h, vector<bool>(w, false)); // table for height and width of building
+    vector<vector<int> > building(h, vector<int>(w, 0)); // added integers for the 2D vectors and changed table to building for compliance
     int x0 = 0;
     int x1 = w;
     int y0 = 0;
