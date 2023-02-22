@@ -57,7 +57,7 @@ int main() {
             x0 = x;
         }
 
-        // (x, y) integers 
+        // (x, y) set to update on upper/lower bounds defined in loop
         x = x0 + (x1 - x0) / 2;
         y = y0 + (y1 - y0) / 2;
 
