@@ -41,7 +41,7 @@ int main() {
         cerr << x0 << ' ' << x1 << endl;
         cerr << y0 << ' ' << y1 << endl;
 
-        // if-else if loops used to binary search and create character key deisgnations depending on inputs
+        // if-else if loops used to binary search and create character key designations depending on inputs
         if (contains(bomb_dir, 'U')) {
             y1 = y;
         }
