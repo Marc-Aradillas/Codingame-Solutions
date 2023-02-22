@@ -5,7 +5,7 @@
 
 using namespace std;
 
-// bool container for string source and character keys
+// bool contains for string source and character key to check and return true or false
 bool contains(const string& source, char key) {
     for (int i = 0; i < source.size(); i++) {
         if (source[i] == key) {
